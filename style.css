@@ -1,0 +1,96 @@
+html {
+	background: white;
+	font-family: "Inter", sans-serif;
+	overflow-x: hidden;
+}
+
+body {
+	margin: auto;
+	width: 80vw;
+}
+.cabecera {
+	background-color: #01A28D;
+	width: 100vw;
+	padding: 1%;
+	margin-left: -15%;
+}
+
+.contenido img {
+	max-width: 20vw;
+	float: left;
+	margin-left: 10%;
+}
+
+.contenido {
+	padding: 6px 3%;
+	margin:auto;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	margin: 0px;
+}
+
+.cuerpo {
+	display: inline-flex;
+	margin-top: 2%;
+}
+
+.cuerpo2 {
+	width: 55vw;
+	padding: 0px 2vw;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.sidebar {
+
+	font-size: 20px;
+	margin-left:10px;
+	padding-right: 30px;
+}
+
+.formulario {}
+
+.tituloform {
+	background-color: black;
+	color: white;
+	padding:10px;
+	margin-right:-40px;
+}
+
+.sidebar a {
+	color: black;
+	text-decoration: none;
+}
+
+.form {
+	margin: 0px 20px;
+}
+
+.form p {
+	font-weight: bold;
+	font-size: 20px;
+}
+textarea{
+	width: 90%;
+	padding: 20px;
+	margin:0px 0px 10px 30px;
+	border: 1px solid black;
+	border-radius: 20px;
+	height:60px;
+	resize: none;
+	font-family: "Inter", sans-serif;
+}
+
+input[type=radio]{
+	width: 20%;
+	margin:10px 0px;
+}
+
+label {
+	font-size: 20px;
+}
