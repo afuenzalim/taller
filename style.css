@@ -67,6 +67,7 @@ body {
   textarea{
     width: 80%;
     font-family: "Darker Grotesque", sans-serif;
+    font-size:1.3rem;
     padding: 1rem;
     border: 1px solid black;
     border-radius: 20px;
@@ -281,7 +282,8 @@ body {
   width: 100%;
   margin:auto;
   margin-bottom: 2rem;
-  font-family: "Darker Grotesque", sans-serif;;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size:1.3rem;
   padding: 1rem;
   border: 1px solid black;
   border-radius: 20px;
