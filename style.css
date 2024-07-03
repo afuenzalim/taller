@@ -226,6 +226,7 @@ body {
   [class=sidebar] {
     width: 100%;
     background-color: #01A28D;
+    padding: 0.5rem 0;
     border-bottom: 2px solid black;
     z-index: -2;
     margin: auto;
