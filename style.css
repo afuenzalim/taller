@@ -76,18 +76,17 @@ body {
     margin-bottom: 1rem
   }
     .cuerpo {
-      width: 75%;
-      margin: auto;
-      display: flex;
-    }
-    .cuerpo {
       width: 100%;
       margin-left:-3rem;
+      display: flex;
+    }
+    .cuerpo2 {
+      width: 60%;
     }
     .sidebar {
-      height:full;
+      height:calc(100vh - 150px);
       min-width:218px;
-      width: 47.3%;
+      width: 28.8%;
       border-right: 2px solid black;
       position: sticky;
     }
@@ -190,6 +189,34 @@ body {
   label {
     font-size: 1.4rem;
   }
+  .datos {
+    margin: 2rem;
+  }
+  table {
+    width:100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  th {
+    width: auto;
+    height:4rem;
+    padding:0.3rem;
+    font-size: 1.4rem;
+  }
+  tr {
+    border-bottom: 1px solid #01A28D;
+    z-index:-2;
+  }
+  td {
+    font-size: 1.15rem;
+    text-align: center;
+    border-right: 1px solid #ababab;
+  }
+  .nombre {
+    border-right: 2px solid #01A28D;
+  }
+  .last {
+    border-bottom:2px solid black;}
 }
 
 
@@ -369,5 +396,32 @@ body {
     color: white;
     animation: linkmenu 0.2s ease-in;
   }
-}
+
+  table {
+    width:100%;
+    border-collapse: collapse;
+    overflow-x: scroll;
+  }
+  th {
+    width: auto;
+    height:4rem;
+    padding:0.3rem;
+    font-size: 1.4rem;
+  }
+  tr {
+    border-bottom: 1px solid #01A28D;
+    z-index:-2;}
+  td {
+    font-size: 1.15rem;
+    text-align: center;
+    border-right: 1px solid #ababab;
+  }
+  .nombre {
+    border-right: 2px solid #01A28D;
+  }
+  .last {
+    border-bottom:2px solid black;}
+  .mobile {
+    overflow: auto;
+  }
 }
